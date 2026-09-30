@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vancouver 2026 Civic Election Matcher</title>
+  <meta name="description" content="Answer questions about city issues and see which Vancouver civic party's platform most closely matches your views.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Vancouver Civic Election Matcher</h1>
+      <p class="sub">Election day: October 17, 2026</p>
+    </div>
+  </header>
+
+  <main class="wrap" id="app" aria-live="polite"></main>
+
+  <footer class="wrap site-footer">
+    <p>Non-partisan and unofficial. Positions are summarized from public reporting and party releases as of September 30, 2026, and may be incomplete or out of date. Always check each party's own platform before you vote. Your answers stay in your browser and are never sent anywhere.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="score.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
