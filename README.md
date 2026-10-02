@@ -36,4 +36,4 @@ Push this folder to a GitHub repo on `main`, create the Static Web App with `--s
 
 ## Updating positions
 
-Edit `QUESTIONS[].stances` in `data.js`. Format: `party: [stance, "note", "sourceKey", inferred?]`, where stance is -2 to +2 and `sourceKey` refers to `SOURCES`. Run `node test.js` afterwards. The election is October 17, 2026; OneCity and COPE had not released full platforms when this was researched, and Bright Future's detailed platform was still pending.
+Edit `QUESTIONS[].stances` in `data.js`. Format: `party: [stance, "note", "sourceKey", inferred?]`, where stance is -2 to +2 and `sourceKey` refers to `SOURCES`. Run `node test.js` afterwards. The election is October 17, 2026. OneCity and COPE have each dropped their mayoral candidates (Azaroff withdrew Sept 8 and endorsed Pete Fry; Allen withdrew Sept 2) and were still running on 2025/early-2026 platforms when this was researched (Oct 2), so re-check `data.js` as parties publish more.
